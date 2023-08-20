@@ -9,8 +9,8 @@ tags: ["nextjs", "React", "data fetching", "react-query", "api", "data", "JavaSc
 <CustomImage 
 src='https://raw.githubusercontent.com/JUNNY12/portfoliopost/main/image/reactquery.png'
 alt='React query'
-width={650}
-height={650}
+width={400}
+height={400}
 />
 
 
@@ -30,7 +30,7 @@ and optimistic updates to streamline data management and improve the user experi
 
 To get started with React Query, we'll need to install it in our project.
 
-```
+```jsx
 npm install react-query
 yarn add react-query
 
@@ -45,6 +45,7 @@ In this example, we'll build a simple todo list application to showcase React Qu
 ## Fetching data
 
 We'll start by fetching a list of todos using React Query's useQuery hook.
+
 
 ```jsx
 
@@ -78,6 +79,7 @@ export default TodoList;
 ## Adding a  new todo
 
 Next we'll add a form to add a new todo. We'll use React Query's useMutation hook to handle the form submission.
+
 
 ```jsx
 import React, { useState } from 'react';
@@ -131,6 +133,7 @@ export default TodoForm;
 
 Finally, we'll add the ability to mark a todo as complete. We'll use React Query's useMutation hook to handle the form submission.
 
+
 ```jsx
 import React from 'react';
 import { useMutation, useQueryClient } from 'react-query';
@@ -178,6 +181,7 @@ export default Todo;
 ## Deleting a todo
 
 Finally, we'll add the ability to delete a todo. We'll use React Query's useMutation hook to handle the form submission.
+
 
 ```jsx
 import React from 'react';

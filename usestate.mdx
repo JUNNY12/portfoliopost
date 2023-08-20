@@ -8,9 +8,10 @@ tags: ["React", "Javascript", "webdev"]
 <CustomImage 
 src='https://raw.githubusercontent.com/JUNNY12/portfoliopost/main/image/useState.png'
 alt='usestate'
-width={650}
-height={650}
+width={400}
+height={400}
 />
+
 
 
 In React, managing state is a fundamental aspect of building dynamic and interactive applications.
@@ -27,6 +28,8 @@ This hook is perfect for managing individual pieces of state that can be updated
 ## A Simple Example using a Counter
 
 Let's take a look at a simple example of using the useState hook to manage state in a counter component.
+
+
 
 ```jsx
 import React, { useState } from 'react';
@@ -100,9 +103,11 @@ function Counter() {
 }
 ```
 
+
 Lets explore some other Examples
 
 ## Managing a form with useState
+
 
 ```jsx
 import React, { useState } from 'react';
@@ -164,6 +169,7 @@ function FormWithState() {
 export default FormWithState;
 
 ```
+
 
 ## Managing a form with useReducer
 
@@ -239,6 +245,7 @@ function FormWithReducer() {
 export default FormWithReducer;
 
 ```     
+
 
 In both examples, the form state is managed using either the useState hook or the useReducer hook.
 The form fields are updated in response to user input, and the form data is logged to the console 
