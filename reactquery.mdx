@@ -16,19 +16,26 @@ height={400}
 
 # Introduction
 
-Managing data in React applications can be complex, but with the help of React Query, 
+<CustomParagraph
+children='Managing data in React applications can be complex, but with the help of React Query, 
 you can simplify fetching, caching, and updating data. In this article, we'll explore the basics
 of React Query and build a simple todo list application to demonstrate its power.
+'
+/>
 
 ## What is React Query?
 
-React Query is a library that provides a set of tools for managing remote and local data in your React applications. 
+<CustomParagraph 
+children='React Query is a library that provides a set of tools for managing remote and local data in your React applications. 
 It leverages hooks and concepts like query caching, background data fetching,
-and optimistic updates to streamline data management and improve the user experience.
+and optimistic updates to streamline data management and improve the user experience.'
+/>
 
 ## Getting Started
 
-To get started with React Query, we'll need to install it in our project.
+<CustomParagraph
+children='To get started with React Query, we'll need to install it in our project.'
+/>
 
 ```jsx
 npm install react-query
@@ -36,16 +43,22 @@ yarn add react-query
 
 ```
 
-Lets create a simple todo list application to demonstrate the power of React Query.
+<CustomParagraph
+children='Lets create a simple todo list application to demonstrate the power of React Query.
+'/>
 
 ## Creating a Todo List Application
 
-In this example, we'll build a simple todo list application to showcase React Query's capabilities.
+<CustomParagraph
+children='In this example, we'll build a simple todo list application to showcase React Query's capabilities.
+' />
 
 ## Fetching data
 
-We'll start by fetching a list of todos using React Query's useQuery hook.
-
+<CustomParagraph 
+children='We'll start by fetching a list of todos using React Query's useQuery hook.
+'
+/>
 
 ```jsx
 
@@ -78,8 +91,9 @@ export default TodoList;
 
 ## Adding a  new todo
 
-Next we'll add a form to add a new todo. We'll use React Query's useMutation hook to handle the form submission.
-
+<CustomParagraph 
+children='Next we'll add a form to add a new todo. We'll use React Query's useMutation hook to handle the form submission.
+' />
 
 ```jsx
 import React, { useState } from 'react';
@@ -131,8 +145,9 @@ export default TodoForm;
 
 ## Updating a todo
 
-Finally, we'll add the ability to mark a todo as complete. We'll use React Query's useMutation hook to handle the form submission.
-
+<CustomParagraph 
+children='Finally, we'll add the ability to mark a todo as complete. We'll use React Query's useMutation hook to handle the form submission.
+' />
 
 ```jsx
 import React from 'react';
@@ -180,8 +195,9 @@ export default Todo;
 
 ## Deleting a todo
 
-Finally, we'll add the ability to delete a todo. We'll use React Query's useMutation hook to handle the form submission.
-
+<CustomParagraph 
+children ='Finally, we'll add the ability to delete a todo. We'll use React Query's useMutation hook to handle the form submission.
+' />
 
 ```jsx
 import React from 'react';
@@ -221,11 +237,16 @@ export default Todo;
 
 ## Conclusion
 
-React Query is a powerful library that simplifies data management in React applications. 
+<CustomParagraph 
+children='React Query is a powerful library that simplifies data management in React applications. 
 By leveraging hooks like useQuery and useMutation, you can easily fetch, cache, and update
 data while improving the user experience.
 Start using React Query in your projects to streamline data-related tasks and build more efficient applications.
+' />
 
+<CustomParagraph 
+children='
 In this article, we built a simple todo list app to demonstrate the core concepts of React Query.
 As you explore the library further, you'll discover its advanced features for handling pagination, 
-optimistic updates, and more complex data scenarios. Happy coding with React Query!
+optimistic updates, and more complex data scenarios. Happy coding with React Query!'
+/>
