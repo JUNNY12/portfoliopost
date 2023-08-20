@@ -30,8 +30,8 @@ This hook is perfect for managing individual pieces of state that can be updated
 ## A Simple Example using a Counter
 
 <CustomParagraph 
-children='Let's take a look at a simple example of using the useState hook to manage state in a counter component.
-' />
+children="Let us take a look at a simple example of using 
+the useState hook to manage state in a counter component"/>
 
 ```jsx
 import React, { useState } from 'react';
@@ -60,17 +60,18 @@ function Counter() {
 ## useReducer Hook
 
 <CustomParagraph
-children='The useReducer hook provides a more powerful way to manage state, especially when dealing with more complex
+children="The useReducer hook provides a more powerful way to manage state,
+especially when dealing with more complex
 state transitions and logic. It is inspired by the concept of reducers
 in Redux. Instead of directly updating the state,
-you define a reducer function that specifies how state updates should be handled based on action types.
-' />
+you define a reducer function that specifies how state updates 
+should be handled based on action types"/>
 
 ## A Simple Example using a Counter
 
 <CustomParagraph 
-children='Let's take a look at a simple example of using the useReducer hook to manage state in a counter component.
-' />
+children="Let us take a look at a simple example of 
+using the useReducer hook to manage state in a counter component"/>
 
 ```jsx
 import React, { useReducer } from 'react';
@@ -255,18 +256,16 @@ export default FormWithReducer;
 
 
 <CustomParagraph 
-children='In both examples, the form state is managed using either the useState hook or the useReducer hook.
+children="In both examples, the form state is managed using either the useState hook or the useReducer hook.
 The form fields are updated in response to user input, and the form data is logged to the console 
 when the form is submitted. The useState approach uses individual state variables for each form field, 
-while the useReducer approach uses a single state object and a reducer function to update the form state.
-'
-/>
+while the useReducer approach uses a single state object and a reducer function to update the form state"/>
 
 ## When to use useReducer over useState
 
 <CustomParagraph 
-children='While useState is suitable for managing simple state updates, useReducer becomes more valuable when:
-' />
+children="While useState is suitable for managing simple state updates,
+ useReducer becomes more valuable when:"/>
 
 ### 1. Complex State Logic: When your state logic involves multiple actions, transformations, or complex updates, 
 useReducer provides a structured way to handle these scenarios.
@@ -284,8 +283,7 @@ useReducer can make your state management more testable.
 ## Conclusion
 
 <CustomParagraph 
-children='In conclusion, both useState and useReducer have their places in React state management.
+children="In conclusion, both useState and useReducer have their places in React state management.
 While useState is simpler and ideal for basic state needs, useReducer shines when dealing
 with more complex state transitions and logic. By understanding the strengths of each hook, you can make
-informed decisions about which one to use based on your application's requirements.'
-/>
+informed decisions about which one to use based on your application's requirements"/>
