@@ -9,8 +9,8 @@ tags: ["JavaScript", "Higher-Order Functions", "Functional Programming", "Modula
 <CustomImage 
 src='https://raw.githubusercontent.com/JUNNY12/portfoliopost/main/image/higherOrderFunction.webp'
 alt='Higher Order Functions'
-width={650}
-height={650}
+width={600}
+height={400}
 />
 
 
@@ -18,15 +18,19 @@ height={650}
 
 ## What are Higher-Order Functions?
 
-Higher-order functions are a powerful concept in JavaScript that allow functions to be treated as first-class citizens. 
+<CustomParagraph 
+children='Higher-order functions are a powerful concept in JavaScript that allow functions to be treated as first-class citizens. 
 This means you can pass functions as arguments to other functions, return functions from functions, 
 or even assign functions to variables. Higher-order functions are a fundamental building block in functional 
 programming and can greatly enhance the flexibility and modularity of your code.
-
+'
+/>
 
 ## Benefits of Higher-Order Functions
 
-Higher-order functions bring several benefits to your code:
+<CustomParagraph 
+children='Higher-order functions bring several benefits to your code:'
+/>
 
 
 - **Code Reusability:** Higher-order functions promote code reusability by allowing you
@@ -41,12 +45,14 @@ Higher-order functions bring several benefits to your code:
 
 ## Examples of Higher-Order Functions
 
-### 1. `map()`
+### 1. **`map()`**
 
 
-The `map()` function is a classic example of a higher-order function. It applies a given function to each element
+<CustomParagraph 
+children='The `map()` function is a classic example of a higher-order function. It applies a given function to each element
 in an array and returns a new array containing the results.
-
+'
+/>
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -56,10 +62,12 @@ console.log(doubled); // [2, 4, 6, 8, 10]
 
 ```
 
-### 2. `filter()`
+### 2. **`filter()`**
 
-The `filter()` function is another higher-order function that creates a new array containing elements that pass a given test function.
-
+<CustomParagraph 
+children='The `filter()` function is another higher-order function that creates a new array containing elements that pass a given test function.
+'
+/>
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -69,12 +77,14 @@ console.log(evenNumbers); // [2, 4]
 ```
 
 
-### 3. `reduce()`
+### 3. **`reduce()`**
 
 
-The `reduce()` function is a higher-order function that reduces an array to a 
+<CustomParagraph
+children='The `reduce()` function is a higher-order function that reduces an array to a 
 single value by applying a given function to each element and accumulating the results.
-
+'
+/>
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -87,14 +97,17 @@ console.log(sum); // 15
 ## Creating Higher-Order Functions
 
 
-Absolutely, you can create your own higher-order functions in JavaScript. Higher-order functions
+<CustomParagraph
+children='Absolutely, you can create your own higher-order functions in JavaScript. Higher-order functions
 are simply functions that take one or more functions as arguments and/or return a function as their result. 
 Creating your own higher-order functions 
 can help you encapsulate and abstract common patterns of behavior in your code.
+'
+/>
 
-
-Here's an example of how you could create a basic higher-order function:
-
+<CustomParagraph
+children='Here is an example of how you could create a basic higher-order function:'
+/>
 
 ```javascript
 // A simple higher-order function that takes a function and a value as arguments
@@ -127,9 +140,9 @@ console.log(squaredValue); // Output: 25
 
 Higher-order functions usually exhibit these characteristics:
 
-- They take one or more functions as arguments 
-- They return a function as their result
-- They enhance the behavior of functions or provide new functionality
+### 1. They take one or more functions as arguments 
+### 2. They return a function as their result
+### 3. They enhance the behavior of functions or provide new functionality
 
 
 ## Conclusion
